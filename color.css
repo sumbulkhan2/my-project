@@ -1,0 +1,349 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+.body
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:#c4a1a2; 
+       
+}
+
+
+.navbar navbar-expand-lg navbar-light bg-primary
+{
+    height: 40px;
+    
+}
+
+
+
+
+.img-fluid { max-width: 100%; and height: auto; }
+.navbar navbar-expand-lg navbar-light bg-black
+{ background: black }
+
+.content-wrapper
+{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+    
+}
+
+.content-wapper img
+{
+    width: 100%;
+    
+}
+
+.text-wrapper
+{
+    width:100%;
+    position:relative;
+    margin-top: -30%;
+}
+    
+.text-wrapper h1
+{
+    text-align:right;
+    color:black;
+    font-size: 10vw;
+    font-family: 'Pangolin', cursive;
+}
+
+.move
+{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+
+}
+    
+.move .box
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    
+    
+}
+.move .box .icon
+{
+    position: absolute;
+    top;0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+    
+}
+.move .box:hover .icon    
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+    
+}
+ .move .box .icon .fa
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: aquamarine;
+    
+}
+.move .box:hover .icon .fa
+{
+    font-size: 40px;
+}
+
+.move .box .content
+{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+    
+    
+}
+.move .box:hover .content
+{
+    top: 100px;
+    opacity: 1;
+    
+}
+
+
+
+
+.move .box .content h3
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    
+}
+    
+.move .box .content p
+{
+    margin: 0 ;
+    padding: 0;
+    color: white;
+    
+    
+}
+
+.move .box:nth-child(1) .icon
+{
+    background: #319635;
+    
+}
+
+.move .box:nth-child(1)
+{
+    background: #4caf50;
+    
+}
+
+
+.move .box:nth-child(2) .icon
+{
+    background: #d03852;
+    
+}
+
+.move .box:nth-child(2)
+{
+    background: #f54967;
+    
+}
+
+.move .box:nth-child(3) .icon
+{
+    background: #23798e;
+    
+}
+
+.move .box:nth-child(3)
+{
+    background: #328fa5;
+    
+}
+
+
+.resturent-1 img
+{
+    width: 540px;
+    height: 540px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+    clear: left;
+    border-radius: 50%;
+    
+}
+
+.resturent-1 .text p
+{    margin: 0 ;
+    padding: 0;
+    font-family: cursive;
+     font-size: 20px;
+}
+
+
+
+
+
+
+
+.resturent-2 img
+{
+    width: 540px;
+    height: 540px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+     padding: 2px;
+    clear: right;
+     border-radius: 50%;
+    
+}
+.resturent-2 .text p
+{
+   font-family: cursive;
+   margin: 0 ;
+    padding: 0; 
+    font-size: 20px;
+    
+}
+
+.resturent-3 img
+{
+    width: 540px;
+    height: 540px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+    clear: left;
+     border-radius: 50%;
+}
+
+.resturent-3 .text p
+{
+ font-family: cursive;
+  margin: 0 ;
+    padding: 0;
+     font-size: 20px;
+}
+
+.resturent-4 img
+{
+    width: 540px;
+    height: 540px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+    clear: right;
+    border-radius: 50%;
+}
+
+.resturent-4 .text p
+{
+ font-family: cursive;
+  margin: 0 ;
+    padding: 0;
+     font-size: 20px;
+}
+
+
+
+.resturent-5 img
+{
+    width: 540px;
+    height: 540px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+    clear: left;
+     border-radius: 50%;
+}
+
+.resturent-5 .text p
+{
+ font-family: cursive;
+  margin: 0 ;
+    padding: 0;
+     font-size: 20px;
+}
+
+.card-deck
+{
+    padding-bottom: 100px;
+    width: 85rem;
+    height: 30rem;
+    float: center;
+    clear:center;
+    border-radius: 20%;
+    
+
+}
+ 
+.btn btn-primary btn-lg btn-block
+{
+    border-radius: 50%;
+    
+}
+
+
+.carouselExampleCaptions .carousel-item
+{
+    width: 100%;
+    height: 20px;
+}
+
+.single-footer{
+   text-align: center;
+  padding: 10px;
+  background-color:black;
+  color: white;
+}
+
+
+
+
+
+
+
+
